@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <span id="highlight-text">Random Password</span></h1>
+        <h2>Never use an insecure password again</h2>
+        <button class="generate-btn" onclick="generatePassword()">Generate Passwords</button>
+        <hr />
+        <div class="display-field">
+            <div class="display-box">
+                <p id="display-el"></p>
+            </div>
+            <button class="copy-btn" id="copy-btn-one" onclick="copyToClipboardOne()"><img src="images/copy.svg"/></button>
+            <div class="display-box">
+                <p id="display-el-two"></p>
+            </div> 
+            <button class="copy-btn" id="copy-btn-two" onclick="copyToClipboardTwo()"><img src="images/copy.svg"/></button>   
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

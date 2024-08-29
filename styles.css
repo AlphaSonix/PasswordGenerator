@@ -1,0 +1,79 @@
+body {
+    background: #ECFDF5;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    width: 370px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #6B7280;
+    margin-bottom: 50px;
+}
+
+#highlight-text {
+    color: #10B091;
+}
+
+.container {
+    margin-top: 115px;
+    margin-left: 52px;
+}
+
+.display-field {
+    display: flex;
+}
+
+.display-box {
+    height: 50px;
+    width: 200px;
+    background-color: #273549;
+    margin: 10px 10px;
+    border-radius: 6px;
+    color: #10B091;
+    text-align: center;
+}
+
+hr {
+    width: 550px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    border: 1px solid #ccc;
+    background: #10B091;
+    border-radius: 7px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba (0, 0, 0, 0, 24);
+}
+
+.copy-btn {
+    height: 40px;
+    width: 40px;
+    background: #273549;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    filter: invert(99%) sepia(2%) saturate(1183%) hue-rotate(339deg) brightness(100%) contrast(86%);
+}
