@@ -3,19 +3,25 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let displayElOne = document.getElementById("display-el")
 let displayElTwo = document.getElementById("display-el-two")
 let copyButton = document.getElementById("copy-btn-one")
+let stringOne = ""
+let stringTwo = ""
 
 function getRandomString() {
     for (let i = 0; i < 16; i++) {
         let indexNum = Math.floor(Math.random() * characters.length);
-        displayElOne.textContent += characters[indexNum];
+        stringOne += characters[indexNum];
     }
     for (let i = 0; i < 16; i++) {
         let indexNumTwo = Math.floor(Math.random() * characters.length);
-        displayElTwo.textContent += characters[indexNumTwo];
+        stringTwo += characters[indexNumTwo]
     }
+    displayElOne.textContent = stringOne;
+    displayElTwo.textContent = stringTwo;
 }
 
 function generatePassword() {
+    stringOne = "";
+    stringTwo = "";
     displayElOne.textContent = ""
     displayElTwo.textContent = ""
     getRandomString();

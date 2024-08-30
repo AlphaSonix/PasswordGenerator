@@ -25,6 +25,7 @@ h2 {
 .container {
     margin-top: 115px;
     margin-left: 52px;
+    width: inherit;
 }
 
 .display-field {
